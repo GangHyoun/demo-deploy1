@@ -6,7 +6,7 @@ on:
   push:
     # 대상 브런치
     branches:
-      # 대상 브런치는 main
+      # 대상 브런치는 main (master -> main)
       - main
 
 # 해야될 일 => jobs
