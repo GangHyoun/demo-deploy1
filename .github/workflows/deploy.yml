@@ -41,7 +41,8 @@ jobs:
       # ./gradlew clean build
       - name: 단위 테스트 및 빌드
         # 명령어가 여러 개면 | 추가
-        run:
+        run: |
+          chmod +x ./gradlew
           ./gradlew clean build
 
 
