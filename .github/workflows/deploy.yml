@@ -7,7 +7,7 @@ on:
     # 대상 브런치
     branches:
       # 대상 브런치는 main (master -> main)
-      - main
+      - master
 
 # 해야될 일 => jobs
 jobs:
